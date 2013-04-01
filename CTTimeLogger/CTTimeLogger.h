@@ -10,4 +10,11 @@
 
 @interface CTTimeLogger : NSObject
 
++ (void)start;
+
++ (void)stop;
+
++ (CTTimeLogger *)instance;
+
+
 @end
